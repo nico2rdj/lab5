@@ -12,9 +12,20 @@ function initializePage() {
 	console.log("Javascript connected!");
 }
 
+
+$(".clicker").click(function(e){
+	e.preventDefault();
+	var current = $(this);
+	current.text( anagrammedName( $(this).text()));
+}
+);
+
+
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
-	
+	if (name == "Thierry Henry") {
+		return "tenry Hhierry";
+	}
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
 	} 

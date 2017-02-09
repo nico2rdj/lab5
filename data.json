@@ -1,6 +1,12 @@
 {
 	"friends": [
 		{
+			"name": "Thierry Henry",
+			"description": "Amazing soccer player",
+			"imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Thierry_Henry_Montreal_Impact_vs_NY_Red_Bulls_2012.jpg"
+
+		},
+		{
 			"name": "Doug Engelbart",
 			"description": "Has awesome pet mice",
 			"imageURL": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
